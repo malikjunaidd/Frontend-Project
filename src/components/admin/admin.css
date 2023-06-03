@@ -1,0 +1,56 @@
+.no-style-link {
+    color: inherit;
+    text-decoration: none;
+
+  }
+  /* Mobile devices */
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  .MuiButton-root {
+    font-size: 16px;
+  }
+  .MuiInputBase-input{
+    font-size: 14px;
+  }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  .MuiButton-root {
+    font-size: 18px;
+  }
+  .MuiInputBase-input{
+    font-size: 16px;
+  }
+}
+
+  @media (max-width: 600px) {
+    .MuiTableCell-head {
+      font-size: 12px;
+      padding: 10px;
+    }
+    .MuiTableCell-body {
+      font-size: 12px;
+      padding: 10px;
+    }
+    .MuiTableContainer-root {
+      overflow-x: scroll;
+    }
+  }
+  .table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  @media (max-width: 600px) {
+    .table-container {
+      width: 100vw;
+      padding: 0 10px;
+    }
+  }

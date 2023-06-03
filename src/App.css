@@ -1,7 +1,14 @@
-.App {
-  text-align: center;
-}
 
+
+ .App {
+  text-align: center;
+  /* background-image: url('./back.jpg');  */
+ }
+ /* }
+ html{
+  height: 100%;
+ } */
+   
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,6 +18,13 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+
+.no-style-link {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .App-header {
@@ -36,3 +50,5 @@
     transform: rotate(360deg);
   }
 }
+
+
